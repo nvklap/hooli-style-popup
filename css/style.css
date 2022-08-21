@@ -206,3 +206,10 @@ body {
 .subpopup-content {
   margin: 10px auto 0px;
 }
+
+@media (max-height: 525px) {
+  html,
+  body {
+    min-height: 500px;
+  }
+}
