@@ -82,8 +82,9 @@ body {
   position: absolute;
   top: 0;
   right: 0;
+  -webkit-appearance: none;
+  -moz-appearence: none;
   appearance: none;
-  /* -webkit-appearance: none; */
 }
 
 .popup-content {
@@ -139,7 +140,7 @@ body {
 }
 
 .checkbox:checked ~ .subpopup-content {
-  grid-auto-rows: 96px;
+  grid-template-rows: repeat(2, 96px);
 }
 
 .popup-link {
